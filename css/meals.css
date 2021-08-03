@@ -1,0 +1,100 @@
+.section-meals {
+  margin: 9.6rem 0;
+}
+
+.meal {
+  box-shadow: 0 1.2rem 2.4rem 0 rgba(0, 0, 0, 0.07);
+  border-radius: 11px;
+  overflow: hidden;
+  transition: all 0.4s;
+}
+
+.meal:hover {
+  transform: translateY(-12px);
+  box-shadow: 0 2.4rem 3.6rem 0 rgba(0, 0, 0, 0.06);
+}
+.meal-img {
+  width: 100%;
+  /* border-top-left-radius: 1.6rem;
+  border-top-right-radius: 1.6rem; */
+}
+.meal-container {
+  padding: 3.2rem 4.8rem 4.8rem;
+}
+.meal-title {
+  color: var(--dark-gray);
+  font-size: 2.4rem;
+  font-weight: 500;
+  margin-bottom: 2.4rem;
+}
+.meal-attributes {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  gap: 2.4rem;
+  font-size: 1.8rem;
+}
+.meal-attribute {
+  display: flex;
+  gap: 1.6rem;
+  align-items: center;
+}
+.meal-icon {
+  color: var(--primary-color);
+  /* font-size: 2.4rem; */
+  height: 2.4rem;
+  width: 2.4rem;
+}
+.meal-tags {
+  margin-bottom: 1.2rem;
+}
+.tag {
+  margin-right: 1.2rem;
+  border-radius: 20px;
+  padding: 0.4rem 0.8rem;
+  text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: 1.1px;
+  font-size: 1.2rem;
+  display: inline-block;
+  color: var(--dark-gray);
+}
+
+.tag--vegetarian {
+  background-color: #51cf66;
+}
+.tag--vegan {
+  background-color: #a9e34b;
+}
+.tag--paleo {
+  background-color: #fcc419;
+}
+.list-type {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+  margin-top: 3.2rem;
+}
+.list-item {
+  font-size: 1.8rem;
+  display: flex;
+  gap: 1.6rem;
+  align-items: center;
+}
+.list-icon {
+  width: 3rem;
+  height: 3rem;
+  color: var(--primary-shade);
+}
+/* .list-type li::before {
+  content: '✔  ';
+  margin-right: 1.2rem;
+  font-size: 2.4rem;
+  color: var(--primary-shade);
+} */
+
+.all-recipes {
+  text-align: center;
+  font-size: 1.8rem;
+}
