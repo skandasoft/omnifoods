@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700&family=Montserrat:wght@100;200;300;400;500;700;900&display=swap');
 
 :root {
-  --primary-color: #e67e22;
+  --primary-color: #e77e23;
   /* --dark-gray: #212529;
   --light-gray: #495057; */
   --dark-gray: #333;
@@ -71,6 +71,7 @@ body {
 }
 
 /* ~~~~~~~~~~~~~~~ buttons ~~~~~~~~~~~~~~~ */
+.btn,
 .btn:link,
 .btn:visited {
   display: inline-block;
@@ -82,6 +83,7 @@ body {
   border-radius: 12px;
   background-color: var(--regular-white);
   transition: all 0.3s;
+  border: none;
 }
 
 .btn--cta:link,
@@ -102,6 +104,14 @@ body {
 .btn--cta:link:hover,
 .btn--cta:visited:hover {
   background-color: var(--primary-shade);
+}
+
+/* ~~~~~~~~~~~~~~~ OUTLINE ~~~~~~~~~~~~~~~ */
+
+*:focus {
+  outline: none;
+  outline: 4px dotted var(--primary-color);
+  outline-offset: 8px;
 }
 
 /* ~~~~~~~~~~~~~~ container ~~~~~~~~~~~~~~ */
@@ -130,6 +140,9 @@ body {
 }
 .grid--cols-4 {
   grid-template-columns: repeat(4, 1fr);
+}
+.grid--cols-5 {
+  grid-template-columns: repeat(5, 1fr);
 }
 
 .grid--center-v {
