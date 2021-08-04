@@ -11,21 +11,26 @@
     <link rel="stylesheet" href="css/meals.css" />
     <link rel="stylesheet" href="css/testimonials.css" />
     <link rel="stylesheet" href="css/pricing.css" />
+    <link rel="stylesheet" href="css/media-queries.css" />
   </head>
   <body>
     <header class="header">
       <a href="#"> <img class="logo" src="img/omnifood-logo.png" /></a>
-      <nav class="main-nav">
-        <ul class="main-nav-list">
-          <li><a class="main-nav-link" href="#">How it works</a></li>
-          <li><a class="main-nav-link" href="#">Meals</a></li>
-          <li><a class="main-nav-link" href="#">Testimonial</a></li>
-          <li><a class="main-nav-link" href="#">Pricing</a></li>
-          <li>
-            <a href="#" class="main-nav-link nav-cta">Try for free</a>
-          </li>
-        </ul>
-      </nav>
+      <!-- <nav class="main-nav"> -->
+      <ul class="main-nav-list">
+        <li><a class="main-nav-link" href="#">How it works</a></li>
+        <li><a class="main-nav-link" href="#">Meals</a></li>
+        <li><a class="main-nav-link" href="#">Testimonial</a></li>
+        <li><a class="main-nav-link" href="#">Pricing</a></li>
+        <li>
+          <a href="#" class="main-nav-link nav-cta">Try for free</a>
+        </li>
+      </ul>
+      <!-- </nav> -->
+      <button class="nav-btn">
+        <ion-icon class="mobile-nav-icon" name="menu-outline"></ion-icon>
+        <ion-icon class="mobile-nav-icon" name="close-outline"></ion-icon>
+      </button>
     </header>
     <main>
       <section class="section-hero">
@@ -559,7 +564,9 @@
                     <option value="others">Others</option>
                   </select>
                 </div>
-                <button class="btn btn--cta">Sign up now</button>
+                <div class="form--btn">
+                  <button class="btn btn--cta">Sign up now</button>
+                </div>
               </form>
             </div>
             <div

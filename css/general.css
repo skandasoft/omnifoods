@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700&family=Montserrat:wght@100;200;300;400;500;700;900&display=swap');
-
 :root {
   --primary-color: #e77e23;
   /* --dark-gray: #212529;
@@ -29,6 +28,10 @@ body {
   color: var(--dark-gray);
   line-height: 1;
   font-size: 1.6rem;
+}
+
+.header {
+  position: relative;
 }
 /* ====================================================== */
 /* ================= GENERAL COMPONENETS ================ */
@@ -85,7 +88,7 @@ body {
   transition: all 0.3s;
   border: none;
 }
-
+.btn--cta,
 .btn--cta:link,
 .btn--cta:visited {
   color: var(--regular-white);
@@ -101,8 +104,8 @@ body {
   box-shadow: inset 0 0 0 3px var(--regular-white);
 }
 
-.btn--cta:link:hover,
-.btn--cta:visited:hover {
+.btn.btn--cta:link:hover,
+.btn.btn--cta:visited:hover {
   background-color: var(--primary-shade);
 }
 
@@ -179,4 +182,23 @@ strong {
 .link:visited:hover {
   color: var(--primary-shade);
   border-bottom: 1px solid transparent;
+}
+
+/* NAVIGTION - MOBILE */
+.nav-btn {
+  background: none;
+  padding: 1.6rem;
+  border: none;
+}
+
+.mobile-nav-icon {
+  font-size: 3.6rem;
+}
+
+.mobile-nav-icon[name='close-outline'] {
+  display: none;
+}
+
+.nav-btn {
+  display: none;
 }

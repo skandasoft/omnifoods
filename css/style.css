@@ -14,7 +14,6 @@ Grey Color: #343a40
 Brand color: #e67e22
 
 */
-
 /* ====================================================== */
 /* ======================= HEADER ======================= */
 /* ====================================================== */
@@ -36,7 +35,7 @@ Brand color: #e67e22
 .main-nav-list {
   display: flex;
   list-style-type: none;
-  gap: 3.2rem;
+  gap: 4.8rem;
   align-items: center;
 }
 
