@@ -157,12 +157,15 @@
 }
 
 .cta .btn {
-  align-self: end;
   background-color: #2e1907;
   color: #fdf2e9;
   font-weight: 500;
   font-family: inherit;
   padding: 1.2rem;
+  width: 100%;
+}
+.form--btn {
+  align-self: end;
 }
 
 .cta .btn:hover {
