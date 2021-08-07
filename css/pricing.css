@@ -106,6 +106,7 @@
     ),
     url(../img/eating.jpg);
   background-size: cover;
+  background-position: center;
 }
 .cta-text-box {
   padding: 6.4rem;
