@@ -1,0 +1,36 @@
+{
+  "name": "@skandasoft/07-omnifood-desktop",
+  "version": "1.0.0",
+  "description": "Omnifoods",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npx parcel@2.0.0-beta.3 build src/index.html --no-cache --no-source-maps --public-url ./ ",
+    "start": "npx parcel src/index.html -p 80 --no-cache --dist-dir out "
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/skandasoft/omnifoods.git"
+  },
+  "keywords": [
+    "omnifoods"
+  ],
+  "author": "SkandaSoft <skandasoftinc@gmail.com> (http://skandasoft.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/skandasoft/omnifoods/issues"
+  },
+  "homepage": "https://github.com/skandasoft/omnifoods#readme",
+  "browserslist": [
+    "since 2017-06"
+  ],
+  "devDependencies": {
+    "@parcel/packager-raw-url": "^2.0.0-rc.0",
+    "@parcel/transformer-image": "^2.0.0-rc.0",
+    "@parcel/transformer-sass": "^2.0.0-beta.3",
+    "@parcel/transformer-webmanifest": "^2.0.0-rc.0",
+    "autoprefixer": "^10.3.1",
+    "cssnano": "^5.0.6",
+    "parcel": "^2.0.0-beta.3",
+    "postcss": "^8.3.5"
+  }
+}

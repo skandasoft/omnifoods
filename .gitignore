@@ -1,3 +1,5 @@
 content
 .vscode
 desktop.ini
+node_modules
+out
