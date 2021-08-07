@@ -99,6 +99,8 @@
 }
 
 .cta-img-box {
+  /* background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    url(../img/eating.jpg); */
   background-image: linear-gradient(
       to right bottom,
       rgba(230, 126, 34, 0.35),
