@@ -1,6 +1,6 @@
 'use strict';
 import classes from './scss/base.scss';
-
+import { bounceIn } from 'animate.css';
 const yearEl = document.querySelector('.year');
 const currentYear = new Date().getFullYear();
 yearEl.textContent = currentYear;
