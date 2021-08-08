@@ -4,7 +4,7 @@
   "description": "Omnifoods",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "npx parcel@2.0.0-beta.3 build src/index.html --no-cache --no-source-maps --public-url ./ .",
+    "build": "npx parcel@2.0.0-beta.3 build src/index.html --no-cache --no-source-maps --public-url ./",
     "start": "npx parcel src/index.html -p 80 --no-cache --dist-dir out "
   },
   "repository": {
