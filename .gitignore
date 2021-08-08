@@ -3,3 +3,4 @@ content
 desktop.ini
 node_modules
 out
+.parcel-cache
